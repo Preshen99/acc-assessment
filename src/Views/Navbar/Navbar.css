@@ -1,0 +1,36 @@
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    background-color: #70259B;
+    color: white;
+    
+    height: 80px;
+}
+
+.logo, .talk {
+    width: 25%;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.links > a {
+    color: white;
+    text-decoration: none;
+}
+
+.talk > button {
+    width: 30%;
+    height: 4vh;
+    color: #70259B;
+    font-weight: bold;
+    border: none;
+    border-radius: 1vw;
+    cursor: pointer;
+}
