@@ -1,10 +1,19 @@
+html {
+    --text-primary: white;
+    --text-secondary: black;
+    --text-tertiary: #70259B; 
+
+    --bg-primary: #70259B;
+    --bg-secondary: white;
+}
+
 .navbar-container {
     display: flex;
     flex-direction: row;
     align-items: center;
 
-    background-color: #70259B;
-    color: white;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
     
     height: 80px;
 }
@@ -17,6 +26,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    
     width: 50%;
 }
 
@@ -28,9 +38,14 @@
 .talk > button {
     width: 30%;
     height: 4vh;
-    color: #70259B;
+
+    background-color: var(--bg-secondary);
+    color: var(--text-tertiary);
+    
     font-weight: bold;
+    
     border: none;
     border-radius: 1vw;
+    
     cursor: pointer;
 }
