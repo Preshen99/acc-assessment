@@ -1,8 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './Views/Navbar/Navbar';
 import Header from './Views/Header/Header';
 import Body from './Views/Body/Body';
+import FooterSection from './Views/Footer/FooterSection';
 
 function App() {
   return (
@@ -12,6 +12,8 @@ function App() {
       <Header></Header>
 
       <Body></Body>
+
+      <FooterSection></FooterSection>
     </div>
   );
 }

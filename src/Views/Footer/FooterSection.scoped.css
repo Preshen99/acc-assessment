@@ -1,0 +1,97 @@
+:root {
+    --text-primary: white;
+    --text-secondary: black;
+    --text-tertiary: #430964; 
+
+    --bg-primary: #430964;
+    --bg-secondary: white;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    background-color: #430964;
+    color: white;
+}
+
+.footerInner {
+    width: 90%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.footerHeader {
+    display: flex;
+    flex-direction: row;
+    
+    width: 90%;
+
+    margin-bottom: 3vh;
+}
+
+.footerHeader > img {
+    width: 3vw;
+}
+
+.footerHeader > p {
+    margin-left: 2vw;
+    text-align: left;
+    font-size: 1.5vw;
+}
+
+.footerBody {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    width: 100%;
+
+    margin-bottom: 10vh;
+}
+
+.footerBody > div:first-child {
+    width: 70%;
+    font-size: 3vw;
+    text-align: left;
+}
+
+.footerBody > div:last-child {
+    width: 30%;
+    font-size: 1.25vw;
+    text-align: left;
+    line-height: 4vh;
+}
+
+.footerBody > div:last-child > a {
+    color: white;
+}
+
+.footerLinks {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(3, auto);
+
+    width: 100%;
+
+    color: white;
+
+    margin-bottom: 3vh;
+
+    line-height: 4vh;
+}
+
+.footerLinks > a {
+    width: fit-content;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+}
+
+.footerLinks > div {
+    text-align: left;
+}

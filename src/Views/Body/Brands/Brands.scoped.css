@@ -12,7 +12,7 @@ p {
 }
 
 .brands-container {
-    width: 90%;
+    width: 100%;
     margin-top: 2vh;
 }
 
@@ -36,6 +36,7 @@ p {
     text-align: left;
     font-size: 3vw;
     font-weight: bold;
+    margin-bottom: 10vh;
 }
 
 .brands-logo{

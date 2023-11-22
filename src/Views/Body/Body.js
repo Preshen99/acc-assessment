@@ -6,9 +6,11 @@ import Brands from './Brands/Brands';
 function Body(){
     return (
         <div className='body-container'>
-            <About></About>
-            <Case></Case>
-            <Brands></Brands>
+            <div className='body-inner'>
+                <About></About>
+                <Case></Case>
+                <Brands></Brands>
+            </div>
         </div>
     )
 }

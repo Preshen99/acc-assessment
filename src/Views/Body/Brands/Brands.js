@@ -1,3 +1,5 @@
+import React, { useState, useEffect } from "react";
+
 import './Brands.scoped.css';
 import rectangle from '../../../Assets/Rectangle 1.svg';
 
@@ -19,6 +21,20 @@ import distell from '../../../Assets/distell-black.svg'
 
 
 function Brands() {
+    // const [brands, setBrands] = useState([]);
+
+    // useEffect(() => {
+    //     var requestOptions = {
+    //         method: 'GET',
+    //         redirect: 'follow'
+    //     };
+
+    //     fetch("http://localhost:8090/api/brand", requestOptions)
+    //         .then(response => response.json())
+    //         .then(result => setBrands(result))
+    //         .catch(error => console.log('error', error));
+    // }, []);
+
     return (
         <div className='brands-container'>
             <div className='brands-header'>
@@ -29,7 +45,14 @@ function Brands() {
             <p>Trusted by leading brands</p>
 
             <div className='brands-logo'>
-                <img src={visa} alt=''></img>
+                {/* {
+                    brands.map((x, index) => (
+                        <img key={x.id} src={`../../../Assets/${x.BrandURL}`} alt={`${x.BrandName}`}></img>
+                    ))
+                } */}
+
+
+                <img  src={visa} alt=''></img>
                 <img src={tyme} alt=''></img>
                 <img src={distell} alt=''></img>
                 <img src={spotify} alt=''></img>
