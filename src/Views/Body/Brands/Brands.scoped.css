@@ -6,3 +6,45 @@ html {
     --bg-primary: #70259B;
     --bg-secondary: white;
 }
+
+p {
+    color: black;
+}
+
+.brands-container {
+    width: 90%;
+    margin-top: 2vh;
+}
+
+.brands-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 26%;
+}
+
+.brands-header > p {
+    font-size: 1.5vw;
+}
+
+.brands-header > img {
+    width: 3vw;
+}
+
+.brands-container > p {
+    text-align: left;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.brands-logo{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(3, auto);
+}
+
+.brands-logo > img {
+    width: 80%;
+    height: 50%;
+}
