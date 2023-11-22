@@ -1,0 +1,20 @@
+html {
+    --text-primary: white;
+    --text-secondary: black;
+    --text-tertiary: #70259B; 
+
+    --bg-primary: #70259B;
+    --bg-secondary: white;
+}
+
+.body-container {
+    width: 100%;
+    height: 60vh;
+
+    display: flex;
+    flex-direction: column;
+
+    padding-inline: 3vw;
+
+    background-color: white;
+}

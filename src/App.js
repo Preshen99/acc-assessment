@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from './Views/Navbar/Navbar';
 import Header from './Views/Header/Header';
+import Body from './Views/Body/Body';
 
 function App() {
   return (
@@ -10,20 +11,7 @@ function App() {
 
       <Header></Header>
 
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Body></Body>
     </div>
   );
 }

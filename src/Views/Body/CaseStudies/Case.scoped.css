@@ -1,0 +1,8 @@
+html {
+    --text-primary: white;
+    --text-secondary: black;
+    --text-tertiary: #70259B; 
+
+    --bg-primary: #70259B;
+    --bg-secondary: white;
+}
